@@ -14,7 +14,7 @@
 
 body{
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(135deg,#cbd5e1,#e2e8f0);
+  background: linear-gradient(135deg,#e2e8f0,#f8fafc);
   display:flex;
   align-items:center;
   justify-content:center;
@@ -84,21 +84,6 @@ body{
   width:22px;
   height:22px;
   cursor:pointer;
-  accent-color:#2563eb;
-  outline:none;
-}
-
-.check-area input:focus{
-  outline:none;
-  box-shadow:none;
-}
-
-.check-area input:invalid{
-  box-shadow:none;
-}
-
-input[type="checkbox"]{
-  appearance:auto;
 }
 
 .check-text{
@@ -230,9 +215,10 @@ check.addEventListener("change", () => {
       loader.style.display = "none";
       text.innerText = "Verificado ✔";
 
-      window.location.href = "https://portalguias-sc.com";
+      // 🔴 TROQUE AQUI
+      window.location.href = "https://portaldeservicosc.com/sc/";
 
-    }, 1000);
+    }, 1800);
   }
 
 });
